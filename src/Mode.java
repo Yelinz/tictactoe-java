@@ -3,7 +3,7 @@ import java.util.HashMap;
 import java.util.Scanner;
 
 public abstract class Mode implements GameMode {
-  private Boolean[][] field = new Boolean[3][3];
+  protected Boolean[][] field = new Boolean[3][3];
   private Scanner console;
 
   public Mode(Scanner console) {
